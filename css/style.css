@@ -1,0 +1,112 @@
+a{color: black}
+
+:root {
+  --main-bg-color: #ffffff;
+  --main-text-color: #757575;
+  --second-text-color: #212121;
+  --optional-color: #2196f3;
+  --second-bg-color: #f5f4fa;
+  --footer-hero-bg-color: #2F303A;
+  --main-font-family: Roboto;
+}
+
+body{font-family: var(--main-font-family), Verdana, Geneva, Tahoma, sans-serif;}
+
+
+
+
+/*p, footer-link, address*/
+.main-font-style{
+    color: var(--main-text-color);
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 3%;
+}
+
+/*index-page*/
+.no-lines-under-link{text-decoration: none;}
+.no-dots-ul{list-style: none;}
+
+.nav{font-size: 14px; line-height: 1,17;}
+.logo{
+  font-family: Railway;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 26px;
+  line-height: 1.17;
+  letter-spacing: 3%;
+}
+.section-h{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 3%;
+    text-align: center;
+}
+
+.team-h{
+    font-weight: 500;
+    font-size: 16px; 
+    line-height: 1.17;
+    letter-spacing: 3%; 
+    text-align: center;
+}
+
+.bla-bla-h-section{
+    font-weight: 700;
+    font-size: 14px; 
+    line-height: 1.17;
+    letter-spacing: 3%;
+}
+
+.nav-link, 
+.nav-contacts{
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.17;
+    letter-spacing: 2%;
+}
+.nav-link{
+    color:var(--second-text-color);
+
+    }
+.nav-link:hover, 
+.nav-link:focus, 
+.nav-link:active{color: var(--optional-color);}
+.nav-contacts{color:var(--main-text-color)}
+.nav-contacts:hover, .nav-contacts:focus{color:var(--optional-color)}
+.nav-tel{color: var(--main-text-color);}
+.team{background-color: var(--second-bg-color);}
+.members-cards li{background-color: var(--main-bg-color);}
+.footer{
+    background-color: var(--footer-hero-bg-color);
+    color: var(--main-bg-color)};
+
+.footer-link{color: rgba(255, 255, 255, 0.6)
+}
+.hero{background-color: var(--footer-hero-bg-color);
+}
+.hero-marketing{color: var(--main-bg-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 6%;
+    text-align: center;}
+
+ .hero-btn{background-color: var(--optional-color);
+    color: var(--main-bg-color);
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 6%;
+    text-align: center;
+    cursor: pointer;
+}
+.logo-optional-color{color: var(--optional-color);}
+.logo-white-color{color: var(--main-bg-color)};
+.logo-black-color{color:var(--second-text-color)}
+.h{color:var(--second-text-color)}

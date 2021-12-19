@@ -12,10 +12,6 @@ a{color: black}
 
 body{font-family: var(--main-font-family), Verdana, Geneva, Tahoma, sans-serif;}
 
-
-
-
-/*p, footer-link, address*/
 .main-font-style{
     color: var(--main-text-color);
     font-weight: 400;

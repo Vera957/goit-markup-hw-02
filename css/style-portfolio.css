@@ -24,13 +24,13 @@ background: #E5E5E5;
     width: 370px;
     height: 404px;
 }
-.portfolio-work-examples-header{
+.portfolio-work-examples-name{
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 6%;
 }
-.portfolio-work-examples-p{
+.portfolio-work-examples-discrition{
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 3%;

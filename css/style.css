@@ -114,7 +114,7 @@ body {
   color: var(--main-bg-color);
 }
 
-.footer-link {
+.inverse-link {
   color: rgba(255, 255, 255, 0.6);
 }
 .hero {

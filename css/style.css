@@ -32,6 +32,7 @@ body {
 .no-dots-ul {
   list-style: none;
 }
+.no-cursive{font-style: normal;}
 
 .nav {
   font-size: 14px;
@@ -44,7 +45,7 @@ body {
   line-height: 1.17;
   letter-spacing: 3%;
 }
-.section-h {
+.section-headline {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -52,7 +53,7 @@ body {
   text-align: center;
 }
 
-.team-h {
+.team-headline {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.17;
@@ -107,10 +108,8 @@ body {
   background-color: var(--main-bg-color);
   
 }
-.box-shadow-first{box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0,2); width: 100px; height: 50px;}
-.box-shadow-second{box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0,14);}
-.box-shadow-third{box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0,12);}
-.footer {
+
+.inverse-color {
   background-color: var(--footer-hero-bg-color);
   color: var(--main-bg-color);
 }
@@ -150,6 +149,7 @@ body {
 .logo-black-color {
   color: var(--second-text-color);
 }
-.h {
+.headline-blacker {
   color: var(--second-text-color);
 }
+.invisible{display: none;}

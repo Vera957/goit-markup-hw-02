@@ -116,6 +116,9 @@ body {
 .inverse-link {
   color: rgba(255, 255, 255, 0.6);
 }
+
+.inverse-link:focus, .inverse-link:hover{color: var(--optional-color);}
+
 .hero {
   background-color: var(--footer-hero-bg-color);
 }

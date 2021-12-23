@@ -2,7 +2,7 @@
 
 .btns{display: flex; justify-content: center;}
 .portfolio-btn{
-    font: inherit;
+    font-family: inherit;
     display: inline;
     background-color: var(--second-bg-color);
     font-weight: 500;
@@ -33,6 +33,5 @@
 .portfolio-work-examples-discrition{
     font-size: 16px;
     line-height: 1.87;
-    letter-spacing: 3%;
     color: var(--main-text-color);
 }

@@ -1,9 +1,8 @@
-/*#F5F4FA - buttons-color
-background: #E5E5E5;
-*/
+/*portfolio style*/
 
 .btns{display: flex; justify-content: center;}
 .portfolio-btn{
+    font: inherit;
     display: inline;
     background-color: var(--second-bg-color);
     font-weight: 500;
@@ -35,4 +34,5 @@ background: #E5E5E5;
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 3%;
+    color: var(--main-text-color);
 }

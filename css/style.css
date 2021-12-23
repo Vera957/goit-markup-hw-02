@@ -40,7 +40,6 @@ body {
 }
 .logo {
   font-family: Railway;
-  font-weight: 700;
   font-size: 26px;
   line-height: 1.17;
   letter-spacing: 3%;
@@ -155,3 +154,5 @@ body {
   color: var(--second-text-color);
 }
 .invisible{display: none;}
+
+.nav-active-link{color: var(--optional-color);}
